@@ -1,0 +1,13 @@
+C:\Users\play3r\Desktop\BlazingPizzaVScode\bin\Debug\netcoreapp3.1\BlazingPizzaVScode.exe
+C:\Users\play3r\Desktop\BlazingPizzaVScode\bin\Debug\netcoreapp3.1\BlazingPizzaVScode.deps.json
+C:\Users\play3r\Desktop\BlazingPizzaVScode\bin\Debug\netcoreapp3.1\BlazingPizzaVScode.runtimeconfig.json
+C:\Users\play3r\Desktop\BlazingPizzaVScode\bin\Debug\netcoreapp3.1\BlazingPizzaVScode.runtimeconfig.dev.json
+C:\Users\play3r\Desktop\BlazingPizzaVScode\bin\Debug\netcoreapp3.1\BlazingPizzaVScode.dll
+C:\Users\play3r\Desktop\BlazingPizzaVScode\bin\Debug\netcoreapp3.1\BlazingPizzaVScode.pdb
+C:\Users\play3r\Desktop\BlazingPizzaVScode\obj\Debug\netcoreapp3.1\BlazingPizzaVScode.csprojAssemblyReference.cache
+C:\Users\play3r\Desktop\BlazingPizzaVScode\obj\Debug\netcoreapp3.1\BlazingPizzaVScode.AssemblyInfoInputs.cache
+C:\Users\play3r\Desktop\BlazingPizzaVScode\obj\Debug\netcoreapp3.1\BlazingPizzaVScode.AssemblyInfo.cs
+C:\Users\play3r\Desktop\BlazingPizzaVScode\obj\Debug\netcoreapp3.1\BlazingPizzaVScode.csproj.CoreCompileInputs.cache
+C:\Users\play3r\Desktop\BlazingPizzaVScode\obj\Debug\netcoreapp3.1\BlazingPizzaVScode.dll
+C:\Users\play3r\Desktop\BlazingPizzaVScode\obj\Debug\netcoreapp3.1\BlazingPizzaVScode.pdb
+C:\Users\play3r\Desktop\BlazingPizzaVScode\obj\Debug\netcoreapp3.1\BlazingPizzaVScode.genruntimeconfig.cache
