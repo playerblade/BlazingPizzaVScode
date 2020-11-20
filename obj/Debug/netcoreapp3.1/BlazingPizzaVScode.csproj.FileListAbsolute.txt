@@ -1,0 +1,13 @@
+E:\xampp\htdocs\ArquitecturaSW\ExamenFinal\BlazingPizzaVScode\bin\Debug\netcoreapp3.1\BlazingPizzaVScode.exe
+E:\xampp\htdocs\ArquitecturaSW\ExamenFinal\BlazingPizzaVScode\bin\Debug\netcoreapp3.1\BlazingPizzaVScode.deps.json
+E:\xampp\htdocs\ArquitecturaSW\ExamenFinal\BlazingPizzaVScode\bin\Debug\netcoreapp3.1\BlazingPizzaVScode.runtimeconfig.json
+E:\xampp\htdocs\ArquitecturaSW\ExamenFinal\BlazingPizzaVScode\bin\Debug\netcoreapp3.1\BlazingPizzaVScode.runtimeconfig.dev.json
+E:\xampp\htdocs\ArquitecturaSW\ExamenFinal\BlazingPizzaVScode\bin\Debug\netcoreapp3.1\BlazingPizzaVScode.dll
+E:\xampp\htdocs\ArquitecturaSW\ExamenFinal\BlazingPizzaVScode\bin\Debug\netcoreapp3.1\BlazingPizzaVScode.pdb
+E:\xampp\htdocs\ArquitecturaSW\ExamenFinal\BlazingPizzaVScode\obj\Debug\netcoreapp3.1\BlazingPizzaVScode.csprojAssemblyReference.cache
+E:\xampp\htdocs\ArquitecturaSW\ExamenFinal\BlazingPizzaVScode\obj\Debug\netcoreapp3.1\BlazingPizzaVScode.AssemblyInfoInputs.cache
+E:\xampp\htdocs\ArquitecturaSW\ExamenFinal\BlazingPizzaVScode\obj\Debug\netcoreapp3.1\BlazingPizzaVScode.AssemblyInfo.cs
+E:\xampp\htdocs\ArquitecturaSW\ExamenFinal\BlazingPizzaVScode\obj\Debug\netcoreapp3.1\BlazingPizzaVScode.csproj.CoreCompileInputs.cache
+E:\xampp\htdocs\ArquitecturaSW\ExamenFinal\BlazingPizzaVScode\obj\Debug\netcoreapp3.1\BlazingPizzaVScode.dll
+E:\xampp\htdocs\ArquitecturaSW\ExamenFinal\BlazingPizzaVScode\obj\Debug\netcoreapp3.1\BlazingPizzaVScode.pdb
+E:\xampp\htdocs\ArquitecturaSW\ExamenFinal\BlazingPizzaVScode\obj\Debug\netcoreapp3.1\BlazingPizzaVScode.genruntimeconfig.cache
