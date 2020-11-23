@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\xampp\\htdocs\\ArquitecturaSW\\ExamenFinal\\BlazingPizzaVScode\\BlazingPizzaVScode.csproj": {}
+    "/home/raul/Desktop/8semestre/ElectiveIV/2Parcial/Test3/BlazingPizzaVScode/BlazingPizzaVScode.csproj": {}
   },
   "projects": {
-    "E:\\xampp\\htdocs\\ArquitecturaSW\\ExamenFinal\\BlazingPizzaVScode\\BlazingPizzaVScode.csproj": {
+    "/home/raul/Desktop/8semestre/ElectiveIV/2Parcial/Test3/BlazingPizzaVScode/BlazingPizzaVScode.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\xampp\\htdocs\\ArquitecturaSW\\ExamenFinal\\BlazingPizzaVScode\\BlazingPizzaVScode.csproj",
+        "projectUniqueName": "/home/raul/Desktop/8semestre/ElectiveIV/2Parcial/Test3/BlazingPizzaVScode/BlazingPizzaVScode.csproj",
         "projectName": "BlazingPizzaVScode",
-        "projectPath": "E:\\xampp\\htdocs\\ArquitecturaSW\\ExamenFinal\\BlazingPizzaVScode\\BlazingPizzaVScode.csproj",
-        "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
-        "outputPath": "E:\\xampp\\htdocs\\ArquitecturaSW\\ExamenFinal\\BlazingPizzaVScode\\obj\\",
+        "projectPath": "/home/raul/Desktop/8semestre/ElectiveIV/2Parcial/Test3/BlazingPizzaVScode/BlazingPizzaVScode.csproj",
+        "packagesPath": "/home/raul/.nuget/packages/",
+        "outputPath": "/home/raul/Desktop/8semestre/ElectiveIV/2Parcial/Test3/BlazingPizzaVScode/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/raul/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -50,7 +50,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
         }
       }
     }
