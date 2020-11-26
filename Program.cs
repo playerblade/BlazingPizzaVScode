@@ -119,7 +119,11 @@ namespace BlazingPizzaVScode
             // Pizza pizza = kitchenDirector.getPizza();
             // Console.WriteLine(pizza.toStrings());
 
-            Console.WriteLine("hello delivery");
+            // branch delivery by Raul Navarro
+
+            Console.WriteLine("Cofirm Order");
+            Console.WriteLine("     1. Yes");
+            Console.WriteLine("     0. Cancel Order");
             
         }
     }
