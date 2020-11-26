@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Threading;
 
 namespace BlazingPizzaVScode
 {
@@ -23,8 +24,8 @@ namespace BlazingPizzaVScode
 
 
             Console.WriteLine("1: Cantidad");
-            // int quantity = Convert.ToInt32(Console.ReadLine());
-            int quantity = 3;
+            int quantity = Convert.ToInt32(Console.ReadLine());
+            // int quantity = 3;
             for (int i = 0; i < quantity; i++)
             {
                 PedidoLista.Add(new Pizza());
@@ -38,8 +39,8 @@ namespace BlazingPizzaVScode
                 Console.WriteLine("     1: Pequenio");
                 Console.WriteLine("     2: Mediano");
                 Console.WriteLine("     3: Grande");
-                // int size = Convert.ToInt32(Console.ReadLine());
-                int size = 2;
+                int size = Convert.ToInt32(Console.ReadLine());
+                // int size = 2;
                 string sizeAux = "";
                 switch(size){
                     case 1:
@@ -68,8 +69,8 @@ namespace BlazingPizzaVScode
                 Console.WriteLine("     1: Piña");
                 Console.WriteLine("     2: Jamon");
                 Console.WriteLine("     3: Chorizo");
-                // string coverage = Console.ReadLine();
-                string coverage = "2,3";
+                string coverage = Console.ReadLine();
+                // string coverage = "2,3";
                 string[] coverages = coverage.Split(',');
                 for (int i = 0; i < coverages.Length; i++)
                 {
@@ -124,19 +125,58 @@ namespace BlazingPizzaVScode
             Console.WriteLine("Cofirm Order");
             Console.WriteLine("     1. Confirm");
             Console.WriteLine("     0. Cancel Order");
+            int option = Convert.ToInt32(Console.ReadLine());
 
-
-            if (true)
+            if (option.Equals(1))
             {
-                Delivery delivery = new Delivery();
 
+                Console.WriteLine("Insert your Phone");
+                int phone = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("Insert your Location: ");
+                Console.WriteLine("Longitude: ");
+                string longitude = Console.ReadLine();
+                Console.WriteLine("Latitude: ");
+                string latitude = Console.ReadLine();
+
+                Delivery delivery = new Delivery();
                 Order order = new Order();
                 order.Attach(delivery,PedidoLista);
                 order.State = "Process";
 
+                Console.WriteLine("See Delivery Location");
+                Console.WriteLine("     1. See");
+                Console.WriteLine("     0. End Order");
+                int see = Convert.ToInt32(Console.ReadLine());
+
+                if (see.Equals(1))
+                {
+                    Console.WriteLine("Delivery Location:\n" 
+                        +"Longitude: "+ delivery.Location[0].ToString()+"\n"
+                        +"Longitude: "+ delivery.Location[1].ToString()
+                    );
+
+                }else
+                {
+                    Console.WriteLine("Your Order Detail");
+                    foreach (Pizza pedido in PedidoLista)
+                    {
+                        Console.WriteLine(pedido.toStrings());
+                    }
+
+                    Console.WriteLine("Your Phone: " +phone);
+                    Console.WriteLine("Your Location: \n" 
+                        +"Longitude: "+ longitude +"\n"
+                        +"Longitude: "+ latitude);
+                    Console.WriteLine("Delivery Location:\n" 
+                        +"Longitude: "+ delivery.Location[0].ToString()+"\n"
+                        +"Longitude: "+ delivery.Location[1].ToString()
+                    );
+                }
+
             }else
             {
-                
+                Console.WriteLine(" Order Cancel......");
+                Thread.Sleep(2000);
             }
             
         }

@@ -1,6 +1,6 @@
 namespace BlazingPizzaVScode
 {
     public interface IObserver {
-        void Update(ISubject subject);            
+        string Update(ISubject subject);            
     }
 }
