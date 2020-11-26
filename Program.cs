@@ -20,9 +20,6 @@ namespace BlazingPizzaVScode
             Console.WriteLine("     2: Ham");
             Console.WriteLine("     3: Sausage");
             int coverage = Convert.ToInt32(Console.ReadLine());
-
-            
-            
         }
     }
 }
