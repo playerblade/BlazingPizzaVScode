@@ -1,6 +1,7 @@
 namespace BlazingPizzaVScode
 {
-    public class Order {
+    public class Order : ISubject
+    {
         public bool State { get; set; }
 
         
