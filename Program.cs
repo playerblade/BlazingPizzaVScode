@@ -122,8 +122,22 @@ namespace BlazingPizzaVScode
             // branch delivery by Raul Navarro
 
             Console.WriteLine("Cofirm Order");
-            Console.WriteLine("     1. Yes");
+            Console.WriteLine("     1. Confirm");
             Console.WriteLine("     0. Cancel Order");
+
+
+            if (true)
+            {
+                Delivery delivery = new Delivery();
+
+                Order order = new Order();
+                order.Attach(delivery,PedidoLista);
+                order.State = "Process";
+
+            }else
+            {
+                
+            }
             
         }
     }
