@@ -23,8 +23,8 @@ namespace BlazingPizzaVScode
 
 
             Console.WriteLine("1: Cantidad");
-            int quantity = Convert.ToInt32(Console.ReadLine());
-            // int quantity = 3;
+            // int quantity = Convert.ToInt32(Console.ReadLine());
+            int quantity = 3;
             for (int i = 0; i < quantity; i++)
             {
                 PedidoLista.Add(new Pizza());
@@ -38,8 +38,8 @@ namespace BlazingPizzaVScode
                 Console.WriteLine("     1: Pequenio");
                 Console.WriteLine("     2: Mediano");
                 Console.WriteLine("     3: Grande");
-                int size = Convert.ToInt32(Console.ReadLine());
-                // int size = 2;
+                // int size = Convert.ToInt32(Console.ReadLine());
+                int size = 2;
                 string sizeAux = "";
                 switch(size){
                     case 1:
@@ -68,8 +68,8 @@ namespace BlazingPizzaVScode
                 Console.WriteLine("     1: Piña");
                 Console.WriteLine("     2: Jamon");
                 Console.WriteLine("     3: Chorizo");
-                string coverage = Console.ReadLine();
-                // string coverage = "2,3";
+                // string coverage = Console.ReadLine();
+                string coverage = "2,3";
                 string[] coverages = coverage.Split(',');
                 for (int i = 0; i < coverages.Length; i++)
                 {
@@ -119,7 +119,7 @@ namespace BlazingPizzaVScode
             // Pizza pizza = kitchenDirector.getPizza();
             // Console.WriteLine(pizza.toStrings());
 
-            
+            Console.WriteLine("hello delivery");
             
         }
     }

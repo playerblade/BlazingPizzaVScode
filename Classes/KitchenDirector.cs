@@ -16,10 +16,10 @@ namespace BlazingPizzaVScode
         public Pizza getPizza(){ return pizzaBuilder.getPizza(); }
         public void construirPizza(){
             
-            this.pizzaBuilder.createNuevaPizza();
-            this.pizzaBuilder.buildCostoAux();
+                this.pizzaBuilder.createNuevaPizza();
+                this.pizzaBuilder.buildCostoAux();
                 pizzaBuilder.buildMasa("Suave");
-            this.pizzaBuilder.buildCoberturaAux(); 
+                this.pizzaBuilder.buildCoberturaAux(); 
             foreach (var pizzaBuilder in pizzaBuilders) 
             { 
                 pizzaBuilder.createNuevaPizza();
