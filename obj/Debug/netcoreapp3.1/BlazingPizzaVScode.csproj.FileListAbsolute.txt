@@ -13,19 +13,6 @@ C:/Users/play3r/Desktop/BlazingPizzaVScode/obj/Debug/netcoreapp3.1/BlazingPizzaV
 C:/Users/play3r/Desktop/BlazingPizzaVScode/obj/Debug/netcoreapp3.1/BlazingPizzaVScode.pdb
 C:/Users/play3r/Desktop/BlazingPizzaVScode/obj/Debug/netcoreapp3.1/BlazingPizzaVScode.genruntimeconfig.cache
 =======
-E:/xampp/htdocs/ArquitecturaSW/ExamenFinal/BlazingPizzaVScode/bin/Debug/netcoreapp3.1/BlazingPizzaVScode.exe
-E:/xampp/htdocs/ArquitecturaSW/ExamenFinal/BlazingPizzaVScode/bin/Debug/netcoreapp3.1/BlazingPizzaVScode.deps.json
-E:/xampp/htdocs/ArquitecturaSW/ExamenFinal/BlazingPizzaVScode/bin/Debug/netcoreapp3.1/BlazingPizzaVScode.runtimeconfig.json
-E:/xampp/htdocs/ArquitecturaSW/ExamenFinal/BlazingPizzaVScode/bin/Debug/netcoreapp3.1/BlazingPizzaVScode.runtimeconfig.dev.json
-E:/xampp/htdocs/ArquitecturaSW/ExamenFinal/BlazingPizzaVScode/bin/Debug/netcoreapp3.1/BlazingPizzaVScode.dll
-E:/xampp/htdocs/ArquitecturaSW/ExamenFinal/BlazingPizzaVScode/bin/Debug/netcoreapp3.1/BlazingPizzaVScode.pdb
-E:/xampp/htdocs/ArquitecturaSW/ExamenFinal/BlazingPizzaVScode/obj/Debug/netcoreapp3.1/BlazingPizzaVScode.csprojAssemblyReference.cache
-E:/xampp/htdocs/ArquitecturaSW/ExamenFinal/BlazingPizzaVScode/obj/Debug/netcoreapp3.1/BlazingPizzaVScode.AssemblyInfoInputs.cache
-E:/xampp/htdocs/ArquitecturaSW/ExamenFinal/BlazingPizzaVScode/obj/Debug/netcoreapp3.1/BlazingPizzaVScode.AssemblyInfo.cs
-E:/xampp/htdocs/ArquitecturaSW/ExamenFinal/BlazingPizzaVScode/obj/Debug/netcoreapp3.1/BlazingPizzaVScode.csproj.CoreCompileInputs.cache
-E:/xampp/htdocs/ArquitecturaSW/ExamenFinal/BlazingPizzaVScode/obj/Debug/netcoreapp3.1/BlazingPizzaVScode.dll
-E:/xampp/htdocs/ArquitecturaSW/ExamenFinal/BlazingPizzaVScode/obj/Debug/netcoreapp3.1/BlazingPizzaVScode.pdb
-E:/xampp/htdocs/ArquitecturaSW/ExamenFinal/BlazingPizzaVScode/obj/Debug/netcoreapp3.1/BlazingPizzaVScode.genruntimeconfig.cache
 >>>>>>> 16771744416875927582867dd8b02e3cb0c5f3a0
 /home/raul/Desktop/8semestre/ElectiveIV/2Parcial/Test3/BlazingPizzaVScode/bin/Debug/netcoreapp3.1/BlazingPizzaVScode
 /home/raul/Desktop/8semestre/ElectiveIV/2Parcial/Test3/BlazingPizzaVScode/bin/Debug/netcoreapp3.1/BlazingPizzaVScode.deps.json
@@ -40,3 +27,16 @@ E:/xampp/htdocs/ArquitecturaSW/ExamenFinal/BlazingPizzaVScode/obj/Debug/netcorea
 /home/raul/Desktop/8semestre/ElectiveIV/2Parcial/Test3/BlazingPizzaVScode/obj/Debug/netcoreapp3.1/BlazingPizzaVScode.dll
 /home/raul/Desktop/8semestre/ElectiveIV/2Parcial/Test3/BlazingPizzaVScode/obj/Debug/netcoreapp3.1/BlazingPizzaVScode.pdb
 /home/raul/Desktop/8semestre/ElectiveIV/2Parcial/Test3/BlazingPizzaVScode/obj/Debug/netcoreapp3.1/BlazingPizzaVScode.genruntimeconfig.cache
+E:\xampp\htdocs\ArquitecturaSW\ExamenFinal\BlazingPizzaVScode\bin\Debug\netcoreapp3.1\BlazingPizzaVScode.exe
+E:\xampp\htdocs\ArquitecturaSW\ExamenFinal\BlazingPizzaVScode\bin\Debug\netcoreapp3.1\BlazingPizzaVScode.deps.json
+E:\xampp\htdocs\ArquitecturaSW\ExamenFinal\BlazingPizzaVScode\bin\Debug\netcoreapp3.1\BlazingPizzaVScode.runtimeconfig.json
+E:\xampp\htdocs\ArquitecturaSW\ExamenFinal\BlazingPizzaVScode\bin\Debug\netcoreapp3.1\BlazingPizzaVScode.runtimeconfig.dev.json
+E:\xampp\htdocs\ArquitecturaSW\ExamenFinal\BlazingPizzaVScode\bin\Debug\netcoreapp3.1\BlazingPizzaVScode.dll
+E:\xampp\htdocs\ArquitecturaSW\ExamenFinal\BlazingPizzaVScode\bin\Debug\netcoreapp3.1\BlazingPizzaVScode.pdb
+E:\xampp\htdocs\ArquitecturaSW\ExamenFinal\BlazingPizzaVScode\obj\Debug\netcoreapp3.1\BlazingPizzaVScode.csprojAssemblyReference.cache
+E:\xampp\htdocs\ArquitecturaSW\ExamenFinal\BlazingPizzaVScode\obj\Debug\netcoreapp3.1\BlazingPizzaVScode.AssemblyInfoInputs.cache
+E:\xampp\htdocs\ArquitecturaSW\ExamenFinal\BlazingPizzaVScode\obj\Debug\netcoreapp3.1\BlazingPizzaVScode.AssemblyInfo.cs
+E:\xampp\htdocs\ArquitecturaSW\ExamenFinal\BlazingPizzaVScode\obj\Debug\netcoreapp3.1\BlazingPizzaVScode.csproj.CoreCompileInputs.cache
+E:\xampp\htdocs\ArquitecturaSW\ExamenFinal\BlazingPizzaVScode\obj\Debug\netcoreapp3.1\BlazingPizzaVScode.dll
+E:\xampp\htdocs\ArquitecturaSW\ExamenFinal\BlazingPizzaVScode\obj\Debug\netcoreapp3.1\BlazingPizzaVScode.pdb
+E:\xampp\htdocs\ArquitecturaSW\ExamenFinal\BlazingPizzaVScode\obj\Debug\netcoreapp3.1\BlazingPizzaVScode.genruntimeconfig.cache
