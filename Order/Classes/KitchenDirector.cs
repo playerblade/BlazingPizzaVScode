@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace BlazingPizzaVScode
 {
-    public class KitchenDirector
+    public class KitchenDirector: IObserver
     {  
         private PizzaBuilder pizzaBuilder;
         List<PizzaBuilder> pizzaBuilders = new List<PizzaBuilder>();
@@ -29,5 +29,15 @@ namespace BlazingPizzaVScode
             } 
             this.pizzaBuilder.buildCoberturas(pizzaBuilders);
         }
+
+        public string Update(ISubject subject)
+        {
+            string exit = string.Empty;
+            if ( (subject as Order).State.Equals("Process"))
+            {
+                exit = "this order this Process";
+            }
+            return exit;
+        }     
     }
 }
