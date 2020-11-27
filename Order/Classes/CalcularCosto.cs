@@ -17,6 +17,8 @@ namespace BlazingPizzaVScode
             foreach (Pizza pedido in this.PedidoLista)
             {
                 Console.Write("costo pizza "+count+": ");
+                costoTotal +=pedido.tamanio.costo;
+                costoUni +=pedido.tamanio.costo;
                 for (int i = 0; i < pedido.coberturas.Count; i++)
                 {
                     costoTotal +=pedido.coberturas[i].pizza.costo;

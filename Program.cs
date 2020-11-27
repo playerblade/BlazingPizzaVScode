@@ -8,18 +8,11 @@ namespace BlazingPizzaVScode
     {
         static void Main(string[] args)
         {
-
-            // ParaConstruir el pedido
-
-            // Cantidad de pizza como maximo
-                        // Pizza obj1 = objPool.Get();
-                        // objPool.Release(obj1);
-            // ObjectPool<Pizza> CapasidadPizzas = new ObjectPool<Pizza>();
-            // Pizza pizza1 = new Pizza();
-            // CapasidadPizzas.Release(pizza1);
             
-            //Lista de pedido
-            List<Pizza> CapasidadPizzas = new List<Pizza>();
+            ObjectPool<Pizza> CapasidadPizzas = new ObjectPool<Pizza>();
+            CapasidadPizzas = ObjectPool<Pizza>.GetInstance();
+            CapasidadPizzas.SetMaxPoolSize(2);
+
             List<Pizza> PedidoLista = new List<Pizza>();
 
 
@@ -28,7 +21,8 @@ namespace BlazingPizzaVScode
             // int quantity = 3;
             for (int i = 0; i < quantity; i++)
             {
-                PedidoLista.Add(new Pizza());
+                // PedidoLista.Add(new Pizza());
+                PedidoLista.Add(CapasidadPizzas.UtilizartPizza());
             }
             
             for (int j = 0; j < PedidoLista.Count; j++)
@@ -41,19 +35,16 @@ namespace BlazingPizzaVScode
                 Console.WriteLine("     3: Grande");
                 int size = Convert.ToInt32(Console.ReadLine());
                 // int size = 2;
-                string sizeAux = "";
+                Tamanio tamanio = new Tamanio(0,"");
                 switch(size){
                     case 1:
-                        // PedidoLista[j].setTamanio("Pequeño");
-                        sizeAux = "Pequeño";
+                        tamanio = new Tamanio(10,"Pequeño");
                         break;
                     case 2:
-                        // PedidoLista[j].setTamanio("Mediano");
-                        sizeAux = "Mediano";
+                        tamanio = new Tamanio(15,"Mediano");
                         break;
                     case 3:
-                        // PedidoLista[j].setTamanio("Grande");
-                        sizeAux = "Grande";
+                        tamanio = new Tamanio(20,"Grande");
                         break;
                     default:
                         Console.WriteLine("error");
@@ -94,7 +85,7 @@ namespace BlazingPizzaVScode
                 kitchenDirector.setPizzaBuilders(coberturas);
                 kitchenDirector.construirPizza();
                 PedidoLista[j] = kitchenDirector.getPizza();
-                PedidoLista[j].setTamanio(sizeAux);
+                PedidoLista[j].setTamanio(tamanio);
             }
             
             foreach (Pizza pedido in PedidoLista)

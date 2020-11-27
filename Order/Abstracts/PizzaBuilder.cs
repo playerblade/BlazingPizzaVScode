@@ -21,7 +21,7 @@ namespace BlazingPizzaVScode
         public void buildMasa(string masa) {
             pizza.setMasa(masa);
         }
-        public void buildTamanio(string tamanio) {
+        public void buildTamanio(Tamanio tamanio) {
             pizza.setTamanio(tamanio);
         }
 

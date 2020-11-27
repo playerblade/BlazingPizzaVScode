@@ -3,7 +3,7 @@ using System.Collections.Generic;
 namespace BlazingPizzaVScode
 {
     public class Pizza {
-        private string tamanio;
+        public Tamanio tamanio;
         private string masa;
         public int costo;
         public string cobertura;
@@ -11,7 +11,7 @@ namespace BlazingPizzaVScode
         public void setCosto(int costo) {
             this.costo = costo;
         }
-        public void setTamanio(string tamanio) {
+        public void setTamanio(Tamanio tamanio) {
             this.tamanio = tamanio;
         }
         public void setMasa(string masa) {
@@ -36,7 +36,8 @@ namespace BlazingPizzaVScode
         public string toStrings() {
             string coverturAux = "Pizza{" +
                     "masa='" + masa+"'"+
-                    ", tamanio='" + tamanio+"'"+
+                    ", tamanio='" + tamanio.tamanio+"'"+
+                    ", costo='" + tamanio.costo+"'"+
                     ", cobertura {";
             foreach (var cobertura in coberturas) 
             { 

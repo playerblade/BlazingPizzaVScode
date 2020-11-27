@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "/home/raul/.nuget/packages/": {}
+    "C:\\Users\\Daniel\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/raul/Desktop/8semestre/ElectiveIV/2Parcial/Test3/BlazingPizzaVScode/BlazingPizzaVScode.csproj",
+      "projectUniqueName": "E:\\xampp\\htdocs\\ArquitecturaSW\\ExamenFinal\\BlazingPizzaVScode\\BlazingPizzaVScode.csproj",
       "projectName": "BlazingPizzaVScode",
-      "projectPath": "/home/raul/Desktop/8semestre/ElectiveIV/2Parcial/Test3/BlazingPizzaVScode/BlazingPizzaVScode.csproj",
-      "packagesPath": "/home/raul/.nuget/packages/",
-      "outputPath": "/home/raul/Desktop/8semestre/ElectiveIV/2Parcial/Test3/BlazingPizzaVScode/obj/",
+      "projectPath": "E:\\xampp\\htdocs\\ArquitecturaSW\\ExamenFinal\\BlazingPizzaVScode\\BlazingPizzaVScode.csproj",
+      "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
+      "outputPath": "E:\\xampp\\htdocs\\ArquitecturaSW\\ExamenFinal\\BlazingPizzaVScode\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/raul/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -56,7 +56,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
